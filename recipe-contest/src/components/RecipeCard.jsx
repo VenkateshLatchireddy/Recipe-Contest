@@ -55,30 +55,13 @@ const RecipeCard = ({ recipe }) => {
 
   // Set up Intersection Observer to detect when the card comes into view
   useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            // Add class to trigger animation
-            entry.target.classList.add("in-view");
-          }
-        });
-      },
-      { threshold: 0.1 } // Trigger when 10% of the card is in the viewport
-    );
-
-    if (cardRef.current) {
-      observer.observe(cardRef.current);
-    }
-
-    // Cleanup the observer on component unmount
+    const card = cardRef.current; // Store the reference in a variable
     return () => {
-      if (cardRef.current) {
-        observer.unobserve(cardRef.current);
-      }
+      // Use `card` instead of `cardRef.current`
+      // cleanup logic
     };
   }, []);
-
+  
   return (
     <div className="recipe-card" ref={cardRef}>
       <img
