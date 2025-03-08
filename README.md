@@ -22,17 +22,17 @@ A recipe card application built with React that displays various recipes with be
 To get started with this project locally, follow these steps:
 
 ## Assignment Screenshots: 
+![Recipe Page](https://raw.githubusercontent.com/VenkateshLatchireddy/Recipe-Contest/main/recipe-contest/src/assets/s1.png)
 
-![Recipe Page](https://raw.githubusercontent.com/VenkateshLatchireddy/Recipe-Contest/main/src/assets/s1.png)
 
 
-![Recipe Page](https://raw.githubusercontent.com/VenkateshLatchireddy/Recipe-Contest/main/src/assets/s2.png)
+![Recipe Page](https://raw.githubusercontent.com/VenkateshLatchireddy/Recipe-Contest/main/recipe-contest/src/assets/s2.png)
 
-![Recipe Page](https://raw.githubusercontent.com/VenkateshLatchireddy/Recipe-Contest/main/src/assets/s3.png)
+![Recipe Page](https://raw.githubusercontent.com/VenkateshLatchireddy/Recipe-Contest/main/recipe-contest/src/assets/s3.png)
 
-![Recipe Page](https://raw.githubusercontent.com/VenkateshLatchireddy/Recipe-Contest/main/src/assets/s4.png)
+![Recipe Page](https://raw.githubusercontent.com/VenkateshLatchireddy/Recipe-Contest/main/recipe-contest/src/assets/s4.png)
 
-![Recipe Page](https://raw.githubusercontent.com/VenkateshLatchireddy/Recipe-Contest/main/src/assets/s5.png)
+![Recipe Page](https://raw.githubusercontent.com/VenkateshLatchireddy/Recipe-Contest/main/src/recipe-contest/assets/s5.png)
 
 ### Prerequisites
 
