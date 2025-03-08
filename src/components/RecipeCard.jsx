@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useRef } from "react";
 import "../styles/RecipeCard.css";
 
 // Import images from assets
@@ -53,15 +53,6 @@ const RecipeCard = ({ recipe }) => {
     "Stuffed Bell Peppers": StuffedBellPeppers,
   };
 
-  // Set up Intersection Observer to detect when the card comes into view
-  useEffect(() => {
-    const card = cardRef.current; // Store the reference in a variable
-    return () => {
-      // Use `card` instead of `cardRef.current`
-      // cleanup logic
-    };
-  }, []);
-  
   return (
     <div className="recipe-card" ref={cardRef}>
       <img
