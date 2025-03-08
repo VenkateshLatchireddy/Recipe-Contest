@@ -1,0 +1,33 @@
+/* Base style for the search bar */
+.search-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box; /* Ensures padding is included in width */
+}
+
+/* For small devices (mobile) */
+@media (max-width: 480px) {
+  .search-input {
+    font-size: 14px; /* Smaller font size for mobile */
+    padding: 8px; /* Adjust padding for smaller devices */
+  }
+}
+
+/* For medium devices (tablets) */
+@media (min-width: 481px) and (max-width: 768px) {
+  .search-input {
+    font-size: 15px; /* Slightly larger font for tablets */
+    padding: 9px; /* Adjust padding for tablets */
+  }
+}
+
+/* For large devices (desktops) */
+@media (min-width: 769px) {
+  .search-input {
+    font-size: 16px; /* Standard font size for desktops */
+    padding: 10px; /* Standard padding for desktops */
+  }
+}
